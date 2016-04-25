@@ -1,0 +1,11 @@
+﻿body{
+    padding-top: 20px;
+	background-color:rgb(246, 219, 194)	
+}
+#menuHeader{
+	font-size:20px;
+}
+a{
+	text-decoration:none;
+color:black;
+}
