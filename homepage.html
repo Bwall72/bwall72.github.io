@@ -11,12 +11,20 @@
     <meta charset="utf-8" />
 </head>
 <body>
-    <div class="container">
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-lg-4 col-s-12">
+    <div class="container" id="navBar">
+        <div id="navBar">
+            <div class="col-lg-3 ">
                 <ul class="nav navbar-nav">
                     <li class="dropdown col">
-                        <a href="mealSelection.html" class="dropdown-toggle" data-toggle="dropdown" id="menuHeader">Meals<span class="caret"></span></a>
+                        <a href="homepage.html" class="dropdown-toggle" id="menuHeader">Home</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 ">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown col">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menuHeader">Meals<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="Appetizers.html">Appetizers</a></li>
                             <li><a href="Dinner.html">Dinner</a></li>
@@ -25,38 +33,37 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-s-12">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menuHeader">Regions<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="regionIndex.html">Region 1</a></li>
-                            <li><a href="regionIndex.html">Region 2</a></li>
-                            <li><a href="regionIndex.html">Region 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-s-12">
+            <div class="col-lg-3 ">
                 <ul class="nav navbar-nav">
                     <li class="dropdown col">
-                        <a href="#" class=" dropdown-toggle" data-toggle="dropdown" id="menuHeader">Recomendation<span class="caret"></span></a>
+                        <a href="regionselection.html" class="dropdown-toggle" id="menuHeader">Regions</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 ">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown col">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menuHeader">Data<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">By Price</a></li>
-                            <li><a href="#">By Popularity</a></li>
-                            <li><a href="#">By Rating </a></li>
+                            <li><a href="winelist.html">View our Data</a></li>
+                            <li><a href="https://github.com/Bwall72/bwall72.github.io/raw/master/datasortedbyname.pdf">Download PDF</a></li>
+                            <li><a href="https://github.com/Bwall72/bwall72.github.io/raw/master/datasheet.xlsx">Download Excel</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
+
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <div id="my-slider" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <a href="winelist.html">
-                                <img style="height:500px;" src="http://blog.hmns.org/wp-content/uploads/2015/11/WineRotator-2000x925.jpg" />
+                                <img style="height:500px; width:100%;" src="http://blog.hmns.org/wp-content/uploads/2015/11/WineRotator-2000x925.jpg" />
                             </a>
                             <div class="carousel-caption">
                                 <h1>View Our Data</h1>
@@ -64,16 +71,16 @@
 
                         </div>
                         <div class="item">
-                            <a href="regionIndex.html">
-                                <img style="height:500px;" src="http://makingabeille.com/wp-content/uploads/2013/01/sunset-over-vineyard.jpg" />
+                            <a href="regionselection.html">
+                                <img style="height:500px; width:100%;" src="http://makingabeille.com/wp-content/uploads/2013/01/sunset-over-vineyard.jpg" />
                             </a>
                                 <div class="carousel-caption">
-                                <h1>Explore the Wine Regions of France</h1>
+                                <h1>Learn about Wine Regions of France</h1>
                             </div>
                         </div>
                         <div class="item">
                             <a href="mealSelection.html">
-                                <img style="height:500px;" src="http://sr1.wine-searcher.net/images/news/33/22/Glass-size-10003322.jpg" />
+                                <img style="height:500px; width:100%;" src="dinnertableimage.jpg.jpg" />
                             </a>
                                 <div class="carousel-caption">
                                 <h1>Plan a Meal</h1>

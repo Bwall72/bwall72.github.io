@@ -1,0 +1,11 @@
+﻿#header{
+    height:auto;
+     min-height:55px;
+    text-align:center;
+    font-size:40px;
+    xheight:55px;
+    margin-top:3px;
+    margin-bottom:4px;
+    color:white;
+    border-bottom:solid 4px white;
+}
